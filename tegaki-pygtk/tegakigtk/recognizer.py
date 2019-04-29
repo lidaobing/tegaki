@@ -23,7 +23,7 @@ import os
 from ConfigParser import SafeConfigParser, NoSectionError, NoOptionError
 
 import gi
-gi.require_version('Gtk', '3.0')
+gi.require_version('Gtk', '2.0')
 from gi.repository import Gtk as gtk
 from gi.repository import GObject as gobject
 
